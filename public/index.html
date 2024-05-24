@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Thiết lập chạy</title>
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Thiết lập chạy</h1>
+    <div class="proxy-section">
+      <label for="proxy">PROXY</label>
+      <input type="text" id="proxy" name="proxy" value="104.243.210.333:5401:wpdf2ev:df302pfqfgfg">
+      <button>CHECK</button>
+      <span>JAPAN</span>
+    </div>
+    <div class="data-settings">
+      <h2>Cài đặt lấy dữ liệu</h2>
+      <div>
+        <input type="radio" id="trending" name="dataType" value="trending" checked>
+        <label for="trending">Trending</label>
+        <input type="radio" id="keywords" name="dataType" value="keywords">
+        <label for="keywords">Từ khóa</label>
+      </div>
+      <div class="settings">
+        <label for="tabTrending">Tab trending</label>
+        <input type="text" id="tabTrending" name="tabTrending">
+        
+        <label for="youtubeLocation">Địa điểm youtube</label>
+        <input type="text" id="youtubeLocation" name="youtubeLocation">
+        
+        <label for="youtubeLanguage">Ngôn ngữ youtube</label>
+        <input type="text" id="youtubeLanguage" name="youtubeLanguage">
+        
+        <label for="youtubeFollow">Follow youtube (trên)</label>
+        <input type="text" id="youtubeFollow" name="youtubeFollow">
+        
+        <label for="youtubeVideo">Video youtube (trên)</label>
+        <input type="text" id="youtubeVideo" name="youtubeVideo">
+        
+        <label for="tiktokFollow">Follow tiktok (dưới)</label>
+        <input type="text" id="tiktokFollow" name="tiktokFollow">
+      </div>
+      <button>LƯU TRỮ</button>
+      <button>CHỌN FILE SHEET</button>
+    </div>
+    <div class="actions">
+      <button class="start">CHẠY</button>
+      <button class="stop">DỪNG</button>
+    </div>
+    <div class="statistics">
+      <h3>THỐNG KÊ</h3>
+      <p>Số kênh youtube đã tìm: 29</p>
+      <p>Số kênh youtube đạt điều kiện: 15</p>
+    </div>
+  </div>
+</body>
+</html>
